@@ -5,5 +5,5 @@ deploymentType: KUBERNETES
 infrastructure:
 - type: DIRECT_KUBERNETES
   cloudProviderName: lab-cluster
-  namespace: prod
+  namespace: prod2
   releaseName: release-${infra.kubernetes.infraId}
